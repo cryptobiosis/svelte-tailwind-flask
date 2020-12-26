@@ -22,11 +22,11 @@ yarn start [flask_run_options]
 #### `--port` flask port (default 5000)
 
 ## Deploy for production without node.js
-Build the client app with
+Build the client app:
 ```sh
 yarn build
 ```
-The code can now be deployed on a server and run with
+The code can now be deployed on a server and run:
 ```sh
 cd server && flask run --host 0.0.0.0
 ```
